@@ -3,18 +3,18 @@ public class Swap{
       
      public static void main(String[]args) 
      { 
-       int x=100,y=200;
+       int a=100,b=200;
        
        System.out.println("Before Swap");
-       System.out.println("x="+x);
-       System.out.println("y="+y);  
+       System.out.println("a="+a);
+       System.out.println("b="+b);  
 
-       int temp=x;
-       x=y; 
-       y=temp;
+       int temp=a;
+       a=b; 
+       b=temp;
   
        System.out.println("After Swap");
-       System.out.println("x="+x);
-       System.out.println("y="+y);
+       System.out.println("a="+a);
+       System.out.println("b="+b);
      }
     }
